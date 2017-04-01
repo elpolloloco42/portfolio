@@ -1149,6 +1149,7 @@
 		ul.contact-icons {
 			list-style: none;
 			padding-left: 0;
+			padding-top: 2em;
 		}
 
 			ul.contact-icons > li {
@@ -1447,6 +1448,11 @@
 			}
 
 /* Button */
+
+	.followButton {
+		vertical-align: middle;
+	    margin-right: 1rem;
+	}
 
 	input[type="submit"],
 	input[type="reset"],
