@@ -884,8 +884,8 @@
 			position: absolute;
 			top: 0;
 			left: 0;
-			width: 100%;
 			height: 100%;
+			width: 100%;
 		}
 
 		.image[data-position="top left"] img {
@@ -1756,7 +1756,7 @@
 	}
 
 		.gallery > * {
-			width: 20rem;
+			width: 100%;
 			height: 100%;
 		}
 
@@ -3555,7 +3555,7 @@
 		transition-delay: 0.25s;
 		cursor: default;
 		position: relative;
-		height: 32rem;
+		height: inherit;
 		box-shadow: 0 2rem 4rem 0.25rem rgba(46, 43, 55, 0.575);
 	}
 
